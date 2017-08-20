@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.nav li.active a {
+    border-bottom: 2px solid #e6af2a
+}
+
+img {
+    max-height: 100%
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Cerulean_Nights;
+    src: url("../FONTS/Cerulean Nights.otf");
+}
+
+@font-face {
+    font-family: cletg;
+    src: url("../FONTS/BEBAS___.TTF");
+}
+
+@font-face {
+    font-family: BEBAS;
+    src: url("../FONTS/BEBAS___.TTF");
+}
+/******** 
+   Main Navigation
+ **********/
+.navbar-default {
+    background-color: #202835;
+    border: none;
+    padding: 10px 0px;
+}
+#main-menu {
+  border-bottom: 1px solid;
+}
+.mainmenu {
+    float: right
+}
+
+.navbar-nav {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 80px 0;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #fb6816;
+    font-family: roboto;
+    font-weight: 300;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    font-size: 18px;
+    text-transform: uppercase;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #ff6600
+}
+
+.logo h2 {
+    font-family: Cerulean_Nights;
+    color: #fb6816;
+}
+
+.social-icon {
+    display: inline-block;
+    float: right;
+    margin: 25px 0 0;
+}
+
+.social-icon a,
+.contact-socail a {
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid #fb6816;
+    border-radius: 40px;
+    color: #fb6816;
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    height: 40px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.nav li.active a {
+    border-bottom: 1px solid #ff6600
+}
+
+.contact-socail > a:first-child:hover,
+.social-icon > a:first-child:hover {
+    border-color: #3B5998;
+    color: #fff;
+    background: #3B5998;
+}
+
+.contact-socail > a:last-child:hover,
+.social-icon > a:last-child:hover {
+    border-color: #BD1E23;
+    color: #fff;
+    background: #BD1E23;
+}
+
+.contact-socail > a:nth-child(2):hover,
+.social-icon > a:nth-child(2):hover {
+    border-color: #D73D32;
+    color: #fff;
+    background: #D73D32;
+}
+
+.contact-socail {
+    display: inline-block
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ff6600
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #ff6600;
+    background: none;
+}
+
+/*************
+Navigation end
+*************/
+
+.well {
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  border: medium none;
+  box-shadow: 0 9px 21px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.patient-head{
+    
+}
+.sec_title{
+    
+}
+ option{
+    background: #202835;
+}
+#patient_reg {
+  background: rgba(0, 0, 0, 0) url("../img/login-sec-bg.jpg") repeat fixed 50% 50% / cover ;
+  margin-top: 90px;
+  position: relative;
+}
+#patient_reg:before{
+    background-color: rgba(0, 0, 16, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    
+}
+
+.Patient_reg_area .form-control {
+  border-radius: 0;
+  height: 40px;
+    background:transparent none repeat scroll 0 0;
+    color: #fff;
+    border: 1px solid #5D5F60;
+}
+.patient_ditailes .form-control:focus {
+  border-color: #fff;
+  outline: 0 none;
+    box-shadow: none;
+}
+.section-top-border {
+    border-top: 2px solid #fb6816
+}
+.section-padding {
+    padding: 80px 0px 20px 0px;
+}
+.sec_title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sec_title > h2 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 14px;
+    position: relative;
+    color: #fb6816;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.sec_title > h2::before {
+    border: 1px solid #fb6816;
+    bottom: 0;
+    content: "";
+    height: 0;
+    left: -5%;
+    position: absolute;
+    width: 110%;
+}
+.patient_ditailes
+.btn{
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 0;
+  margin-left: 17px;
+  background: transparent;
+    transition: .3s;
+}
+.patient_ditailes
+.btn:hover{
+    color: #FB6816;
+    border-color: #FB6816;
+}
+.form-group > p {
+  color: #fb6816;
+  text-transform: uppercase;
+}
+
+
+
+
+/***********Payment*************/
+.payment_input{
+    border-radius: 0;
+  height: 40px;
+}
+/***********check out*************/
+
+#checkout_section {
+    background:#202835;
+  
+}
+.patient_Checkout .form-control {
+  border-radius: 0;
+  height: 40px;
+    background:transparent none repeat scroll 0 0;
+    color: #000;
+    border: 1px solid #5D5F60;
+}
+.addon {
+  border: 1px solid #000;
+  border-radius: 0;
+}
+.patient_Checkout .btn {
+  background: transparent none repeat scroll 0 0;
+  border: 2px solid #fb6816;
+  border-radius: 0;
+  color: #fb6816;
+  font-size: 20px;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+    margin-left: 190px;
+}
+.btn:last-child {
+  margin-left: 23px;
+}
+.patient_Checkout .btn:hover {
+  background: #202835 none repeat scroll 0 0;
+  border-color: #202835;
+  color: #fb6816;
+}
+.patient_Checkout {
+  background: #fff;
+  margin: 25px 0;
+  padding: 20px;
+}
+
+#footer-area{
+    background: #272B33;
+    padding: 30px 0px;
+    color: #FB6816;
+}

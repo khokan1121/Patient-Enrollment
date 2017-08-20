@@ -1,0 +1,207 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    containe {
+        width: 750px;
+    }
+    .navbar-brand {
+        padding: 0 0 0 27px;
+    }
+    .navbar-brand {
+        float: left;
+        font-size: 18px;
+        height: 25px;
+        line-height: 20px;
+        padding: 15px;
+    }
+    .logo {
+        padding-left: 15px;
+    }
+    .logo > h2 {
+        margin: 0;
+    }
+    .nav.navbar-nav {
+        margin: 0px;
+    }
+    .social-icon {
+        margin: 0px;
+        padding-top: 5px;
+    }
+    .section-head > h2 {
+        color: #fb6816;
+        font-family: cletg;
+        font-size: 30px;
+        line-height: 50px;
+        margin: 0 auto 20px;
+        padding: 10px 0;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        width: 50%;
+    }
+    .section-head > p {
+        color: #44495e;
+        font-family: "Roboto", sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 28px;
+        padding: 5px 20px;
+        text-align: center;
+    }
+    .single-service > p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .single-project {
+        float: left;
+        width: 30%;
+    }
+    .about-company > h3 {
+        color: #202835;
+        line-height: 28px;
+        font-size: 20px;
+    }
+    .patner img {
+        height: 140px;
+        width: 110px;
+    }
+    .testimonial img {
+        border-radius: 200px;
+        display: inline-block;
+        float: left;
+        margin: 40px 0 0 10px;
+        overflow: hidden;
+        padding: 7px;
+    }
+    .client-say {
+        float: left;
+        margin-left: 50px;
+        margin-top: 10px;
+        padding: 10px;
+        width: 55%;
+    }
+    .footer .nav {
+        margin: 0px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        margin-top: -25px;
+    }
+    .navbar-nav {
+        float: left;
+        font-family: "Roboto", sans-serif;
+        margin: 20px 70px 0;
+    }
+    .social-icon {
+        display: inline-block;
+        margin: 25px 0 0 50px;
+    }
+    .navbar-default {
+        background-color: rgba(0, 0, 0, 0.8);
+        border: medium none;
+        padding: 10px 0;
+    }
+    .slider-text h2 {
+        background: #202835 none repeat scroll 0 0;
+        color: #fb6816;
+        display: inline-block;
+        font-family: cletg;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        word-spacing: 10px;
+    }
+    .slider-text span {
+        font-family: Cerulean_Nights;
+        font-size: 35px;
+    }
+    .section-head > h2 {
+        color: #fb6816;
+        font-family: cletg;
+        font-size: 17px;
+        line-height: 50px;
+        margin: 0 auto 20px;
+        padding: 7px 5px;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        width: 50%;
+    }
+    .section-head > p {
+        color: #44495e;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 28px;
+        padding: 5px 13px;
+        text-align: center;
+    }
+    #portfolio-section li {
+        background: transparent none repeat scroll 0 0;
+        border: 2px solid #fb6816;
+        color: #fb6816;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        padding: 5px 15px;
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .custom-btn {
+        border: 2px solid #fb6816;
+        border-radius: 0;
+        color: #fb6816;
+        display: inline-block;
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        padding: 10px 15px;
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-transition: all 0.8s ease 0s;
+        transition: all 0.8s ease 0s;
+    }
+    #portfolio-section img {
+        height: 250px;
+        width: 100%;
+    }
+    .about-company > h3 {
+        color: #202835;
+        line-height: 30px;
+        text-align: justify;
+        font-size: 15px;
+        padding: 0px 3px;
+    }
+    .about-company > p {
+        color: #44495e;
+        font-family: roboto;
+        font-size: 14px;
+        line-height: 28px;
+        padding: 0 5px;
+        text-align: justify;
+    }
+    .footer .nav {
+        margin: 0px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
